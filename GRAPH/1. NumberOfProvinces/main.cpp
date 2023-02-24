@@ -44,6 +44,7 @@ public:
         for(int i=0;i<n;i++){
             if(!visited[i]){
                 provinces++;
+                //BFS(i,visited,adj);
                 DFS(i,visited,adj);
             }
         }
